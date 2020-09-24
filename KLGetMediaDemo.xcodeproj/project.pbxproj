@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C831AFA519FB54F65A70E538 /* Pods_KLGetMediaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C9F586322C982A791645C5 /* Pods_KLGetMediaDemo.framework */; };
+		F74F7F8D251A0038006EB931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7F8C251A0038006EB931 /* AppDelegate.swift */; };
+		F74F7F91251A0038006EB931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7F90251A0038006EB931 /* ViewController.swift */; };
+		F74F7F94251A0038006EB931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74F7F92251A0038006EB931 /* Main.storyboard */; };
+		F74F7F96251A0050006EB931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74F7F95251A0050006EB931 /* Assets.xcassets */; };
+		F74F7F99251A0050006EB931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74F7F97251A0050006EB931 /* LaunchScreen.storyboard */; };
+		F74F7FA4251CABCC006EB931 /* KLLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7FA3251CABCC006EB931 /* KLLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1079E3087D1C1055BAF11D4F /* Pods-KLGetMediaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLGetMediaDemo.debug.xcconfig"; path = "Target Support Files/Pods-KLGetMediaDemo/Pods-KLGetMediaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		11C9F586322C982A791645C5 /* Pods_KLGetMediaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLGetMediaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37788041AB1C18F21A45FD1E /* Pods-KLGetMediaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLGetMediaDemo.release.xcconfig"; path = "Target Support Files/Pods-KLGetMediaDemo/Pods-KLGetMediaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F74F7F89251A0038006EB931 /* KLGetMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLGetMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74F7F8C251A0038006EB931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F74F7F90251A0038006EB931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F74F7F93251A0038006EB931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74F7F95251A0050006EB931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74F7F98251A0050006EB931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74F7F9A251A0050006EB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74F7FA3251CABCC006EB931 /* KLLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74F7F86251A0038006EB931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831AFA519FB54F65A70E538 /* Pods_KLGetMediaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E6AFA96C4ABBE734856FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1079E3087D1C1055BAF11D4F /* Pods-KLGetMediaDemo.debug.xcconfig */,
+				37788041AB1C18F21A45FD1E /* Pods-KLGetMediaDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD4DF3C93C8ECFBBBEC6081B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C9F586322C982A791645C5 /* Pods_KLGetMediaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F74F7F80251A0038006EB931 = {
+			isa = PBXGroup;
+			children = (
+				F74F7F8B251A0038006EB931 /* KLGetMediaDemo */,
+				F74F7F8A251A0038006EB931 /* Products */,
+				61E6AFA96C4ABBE734856FD9 /* Pods */,
+				DD4DF3C93C8ECFBBBEC6081B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F74F7F8A251A0038006EB931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74F7F89251A0038006EB931 /* KLGetMediaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74F7F8B251A0038006EB931 /* KLGetMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F74F7F8C251A0038006EB931 /* AppDelegate.swift */,
+				F74F7F90251A0038006EB931 /* ViewController.swift */,
+				F74F7FA3251CABCC006EB931 /* KLLayout.swift */,
+				F74F7F92251A0038006EB931 /* Main.storyboard */,
+				F74F7F95251A0050006EB931 /* Assets.xcassets */,
+				F74F7F97251A0050006EB931 /* LaunchScreen.storyboard */,
+				F74F7F9A251A0050006EB931 /* Info.plist */,
+			);
+			path = KLGetMediaDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74F7F88251A0038006EB931 /* KLGetMediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74F7F9D251A0050006EB931 /* Build configuration list for PBXNativeTarget "KLGetMediaDemo" */;
+			buildPhases = (
+				331356CAC9698EABBB7518FD /* [CP] Check Pods Manifest.lock */,
+				F74F7F85251A0038006EB931 /* Sources */,
+				F74F7F86251A0038006EB931 /* Frameworks */,
+				F74F7F87251A0038006EB931 /* Resources */,
+				4001B35961848DD6E3CE20D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLGetMediaDemo;
+			productName = KLGetMediaDemo;
+			productReference = F74F7F89251A0038006EB931 /* KLGetMediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74F7F81251A0038006EB931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ray;
+				TargetAttributes = {
+					F74F7F88251A0038006EB931 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F74F7F84251A0038006EB931 /* Build configuration list for PBXProject "KLGetMediaDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74F7F80251A0038006EB931;
+			productRefGroup = F74F7F8A251A0038006EB931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74F7F88251A0038006EB931 /* KLGetMediaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74F7F87251A0038006EB931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74F7F99251A0050006EB931 /* LaunchScreen.storyboard in Resources */,
+				F74F7F96251A0050006EB931 /* Assets.xcassets in Resources */,
+				F74F7F94251A0038006EB931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331356CAC9698EABBB7518FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLGetMediaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4001B35961848DD6E3CE20D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLGetMediaDemo/Pods-KLGetMediaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLGetMediaDemo/Pods-KLGetMediaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLGetMediaDemo/Pods-KLGetMediaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74F7F85251A0038006EB931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74F7F91251A0038006EB931 /* ViewController.swift in Sources */,
+				F74F7FA4251CABCC006EB931 /* KLLayout.swift in Sources */,
+				F74F7F8D251A0038006EB931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F74F7F92251A0038006EB931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74F7F93251A0038006EB931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74F7F97251A0050006EB931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74F7F98251A0050006EB931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74F7F9B251A0050006EB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F74F7F9C251A0050006EB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74F7F9E251A0050006EB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1079E3087D1C1055BAF11D4F /* Pods-KLGetMediaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				INFOPLIST_FILE = KLGetMediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLGetMediaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74F7F9F251A0050006EB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37788041AB1C18F21A45FD1E /* Pods-KLGetMediaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				INFOPLIST_FILE = KLGetMediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLGetMediaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74F7F84251A0038006EB931 /* Build configuration list for PBXProject "KLGetMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74F7F9B251A0050006EB931 /* Debug */,
+				F74F7F9C251A0050006EB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74F7F9D251A0050006EB931 /* Build configuration list for PBXNativeTarget "KLGetMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74F7F9E251A0050006EB931 /* Debug */,
+				F74F7F9F251A0050006EB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74F7F81251A0038006EB931 /* Project object */;
+}
